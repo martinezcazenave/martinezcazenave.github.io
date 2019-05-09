@@ -1,0 +1,70 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+    /* body rules here */
+    body {
+        font-family: Verdana;
+        font-size: 16px;
+    }
+
+    /* header rules here */
+    header {
+        background-color: rgb(190, 199, 190);
+        padding: 1rem 2%;
+    }
+    header h1 {
+        color: rgb(99, 150, 99);
+        margin: 0;
+    }
+    header h2 {
+        color: rgb(99, 150, 99);
+        margin: 0;
+    }
+
+
+    /* navigation rules here */
+    nav {background-color: rgb(99, 150, 99);}
+    nav ul {margin: 0; padding: 0;}
+    nav li {list-style-type: none;}
+    nav li.active {background-color: rgb(8, 22, 4);}
+    nav a {
+        display: block;
+        padding:  .8rem 0; /* 44 min height */
+        color: #eee;
+        text-align: center;
+        text-decoration: none;
+    }
+    nav a:hover {background-color: #444;}
+
+
+main {
+    padding: 1rem 2%;
+    display: block;
+}
+main h1 {color: rgb(99, 150, 99);}
+main h2 {color: rgb(173, 182, 173)}
+main figure img {width: 100%;}
+main figure{
+    width: 100%;
+    margin: 0;
+}
+main figcaption {text-align: center; font-size: .8rem;}
+
+
+   footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: rgb(185, 177, 177);
+
+   } 
+
+   div.news {
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;
+}
+
+.clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
