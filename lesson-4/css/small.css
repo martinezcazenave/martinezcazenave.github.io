@@ -50,15 +50,20 @@ nav ul li.active a {
     color: #fff;
 }
 /*----------- MAIN --------------*/
+
+
 main {
     padding: 0 2%;
     min-height: 10rem;
-    
+    display: block;
 }
+main figure img {width: 100%;}
 Main figure {
+    float: right;
     width: 100%;
     margin: 2%;
 }
+main p {text-align: left}
 
 
 /*----------- FOOTER --------------*/
@@ -68,7 +73,11 @@ footer {
     text-align: center;
     clear: both
 }
-
+div.section {
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
