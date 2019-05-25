@@ -63,8 +63,8 @@ Main figure {
 }
 
 .row {
-    background-color: blue;
-    padding: 1px;
+    padding: 1px
+    background-color:aquamarine; 
     clear: both;
     column-count: 2;
     column-rule: 1px solid #ddd;
