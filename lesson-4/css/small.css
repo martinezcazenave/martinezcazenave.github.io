@@ -8,7 +8,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 
@@ -55,10 +56,11 @@ main {
     padding: 1rem 2%;
     display: block;
 }
-main figure img {width: 100%;}
+main figure img {
+    width: 100%;
+    }
 Main figure {
-    float: right;
-    width: 50%;
+    width: 100%;
     margin: 0;
 }
 
@@ -66,10 +68,11 @@ Main figure {
     background-color: blue;
     padding: 1px;
     clear: both;
-    column-count: 2;
+    column-count: 1;
     column-rule: 1px solid #ddd;
 }
-
+main p {text-align:left}
+h4 {margin:0 }
 
 /*----------- FOOTER --------------*/
 footer {
@@ -78,9 +81,8 @@ footer {
     text-align: center;
     clear: both
 }
-div.section {
+div.row {
     clear: both;
-    column-count: 2;
     column-rule: 1px solid #ddd;
 }
 
