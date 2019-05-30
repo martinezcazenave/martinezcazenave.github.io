@@ -19,7 +19,9 @@
 
 
 /*----------- MAIN --------------*/
-main figure {width: 33%; float: right}
+main figure {width: 33%; }
+div.row {
+    column-count:2;}
 
 
 /*----------- FOOTER --------------*/
