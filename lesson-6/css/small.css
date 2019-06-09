@@ -50,7 +50,7 @@ nav ul li.active a {
     background-color: #000;
     color: #fff;
 }
-nav ul.hide {display: none}
+nav ul.hide {display: none;}
 /*----------- MAIN --------------*/
 
 main {
