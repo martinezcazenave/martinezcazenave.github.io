@@ -7,9 +7,14 @@ body {
     color: black;
 }
 
+h1, h2 {
+    font-family: 'Lora';
+}
+
 h1 {
     font-size: 28px;
     color: white;
+    margin: 0.70em 0;
 }
 
 h2 {
@@ -49,9 +54,10 @@ header, footer, footer a {
 }
 
 header img {
+    box-shadow: 0 0 30px #888888;
     width: 120px;
     height: auto;
-    float: right;
+     float: right;
 }
 
 footer {
