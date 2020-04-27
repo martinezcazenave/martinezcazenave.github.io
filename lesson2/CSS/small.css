@@ -1,0 +1,72 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+    /* body rules here */
+    body {
+        font-family: Verdana;
+        font-size: 16px;
+    }
+
+    /* header rules here */
+    header {
+        text-align: center;
+        background-color: rgb(190, 199, 190);
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1rem 2%;
+        max-width: 800px;
+    }
+    header h1 {
+        color: rgb(99, 150, 99);
+        margin: 0;
+        font-size: 25px;
+    }
+    header h2 {
+        color: rgb(99, 150, 99);
+        margin: 0;
+        font-size: 12;
+    }
+
+
+    /* navigation rules here */
+
+main {
+    max-width: 767px;
+    margin: 0 auto;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    
+}
+main section {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+    background-color: #eee;
+}
+section:nth-child(2) {
+    display: none;
+    margin: 0.5rem;
+}
+
+main section picture {
+    margin: 0.5em;
+}
+
+
+main h1 {color: rgb(99, 150, 99);}
+main h2 {color: rgb(173, 182, 173)}
+
+   footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: rgb(185, 177, 177);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+
+   } 
+
+   
+}
