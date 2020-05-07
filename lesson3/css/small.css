@@ -1,0 +1,100 @@
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+
+header,
+footer {
+	max-width: 767px;
+	background-color: blue;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
+}
+h1 {
+	color: whitesmoke;
+	font-size: 25px;
+}
+h2 {
+	color: whitesmoke;
+	font-size: 12px;
+}
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #bbb;
+	color: #36454f;
+}
+.active {
+	color: yellow;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    
+}
+
+main section h2 {
+color: black;
+}
+main section {
+	display: grid;
+	width: auto;
+    text-align: center;
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+    background-color: #eee;
+}
+
+main section picture img {
+    width: 50%;
+    height: auto;
+    border: 1px solid #bbb;
+    margin-top: 10px;
+}
+
+footer {
+	flex: 0 1 100%;
+	height: 2rem;
+}
+
+footer p {
+	color: whitesmoke;
+	font-size: 10px;
+}
+
+section {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
