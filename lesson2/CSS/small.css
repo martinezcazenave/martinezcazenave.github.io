@@ -7,7 +7,7 @@
     /* header rules here */
     header {
         text-align: center;
-        background-color: rgba(18, 80, 3, 0.699);
+        background-color: rgba(12, 53, 1, 0.699);
         margin-right: auto;
         margin-left: auto;
         padding: 1rem 2%;
@@ -70,7 +70,7 @@ main h2 {
     color: whitesmoke;
     text-align: center;
     padding: 1rem;
-    background-color: rgba(18, 80, 3, 0.699);
+    background-color: rgba(12, 53, 1, 0.699);
     margin-right: auto;
     margin-left: auto;
     max-width: 800px;
