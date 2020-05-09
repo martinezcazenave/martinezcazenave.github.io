@@ -38,7 +38,7 @@ main {
 }
 
 footer {
-    
+    font-size: 12px;
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: 600px;
@@ -46,7 +46,7 @@ footer {
 
 header, footer, footer a {
     text-align: center;
-    vertical-align: middle;
+   
     background-color: blue;
     color: whitesmoke;
     line-height: 15px;
@@ -57,9 +57,6 @@ header img {
     height: auto;
 }
 
-footer {
-    font-size: 12px;
-}
 #lastupdated {
     color: yellow;
     font-size: 9px;
