@@ -7,10 +7,10 @@
 
 <title>The Weather Maniac</title>
 
-<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 
 
 <!-- STYLE SHEETS -->
@@ -26,15 +26,17 @@
      
 </head>
 <body>
-<!-- HEADER HERE -->
+
 	<header class=clearfix>
-	<img src="images/logo.png" alt="logo">
- <h1>The Weather Maniac</h1>
-        <h2>Passion For The Weather</h2>
+	<img src="images/logo.jpg" alt="logo">
+    <section class="headings">
+        <h1>The Weather Maniac</h1>
+        <div class="m">Passion For The Weather</div>
+        </section>
     </header>
     
     
-<!-- NAVIGATION HERE -->
+
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
@@ -47,8 +49,7 @@
         </ul>
     </nav>
     
-    
-<!-- CONTENT HERE -->
+
 
     <main>
         <h2>Preston Idaho</h2>
@@ -57,10 +58,9 @@
         <div class="contentbox">Article</div>
         <div class="contentbox">Contact Information</div>
     </main>
-    
-<!-- FOOTER HERE -->   
+       
 <footer>
-    <p> &#169; 2020 | Federico R. Martinez | </p><p id="lastupdated"></p>
+    <p> &#169; 2020 | Federico R. Martinez | <span id="currentdate"></span>
 </footer>
   <script src="js/last.update.js"></script>
 

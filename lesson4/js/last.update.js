@@ -3,5 +3,16 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-var x =document.lastModified;
-document.getElementById("lastupdated").innerHTML = "Last Updated:" + x;
+try {
+    let options = {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+    };
+    document.getElementById(
+        "currentdate"
+        ).textContent = new Date().toLocaleDateString("en-gb", options);
+} catch (e) {
+    alert ("error")
+}
