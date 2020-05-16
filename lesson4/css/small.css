@@ -29,7 +29,7 @@ header h1 {
     margin: 0;
     margin-left: 17px;
     font-family: 'Galada', cursive; 
-    font-size: 1.3rem;}
+    font-size: 20px;}
 
 .headings {
     display: flex;
@@ -37,6 +37,7 @@ header h1 {
 }
 
 .m {
+    font-size: 12px;
     margin-left: 17px;
     font-family: 'Galada', cursive;
 }
@@ -54,12 +55,12 @@ nav {
     background-color: rgb(166,99,204);
     font-family: 'Questrial', sans-serif;
     text-align: center;
-    margin: 0 auto;
-	}
+    }
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0px;
+    overflow: hidden; 
 }
 
 nav ul li a {
@@ -71,6 +72,8 @@ nav ul li a {
     font-size: .9rem;
     
 }
+
+
 
 
 nav ul li a:hover {
@@ -110,6 +113,7 @@ h4 {margin:0 }
 footer {
     background-color: rgb(166,99,204);
     color: whitesmoke;
+    font-size: 12px;
     padding: .5rem 2%;
     text-align: center;
     clear: both
