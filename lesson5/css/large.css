@@ -1,0 +1,35 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+    nav ul li a {padding: .6rem 1rem;}
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+.artic figure img {
+    width: 30%;
+    }
+.stats {
+    top: 41px;
+    right: 748px;
+    line-height: 2px;
+    font-size: 15px;
+}
+
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
