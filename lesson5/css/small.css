@@ -104,6 +104,7 @@ main h2 {
     border: 1px solid #bbb;
     padding: 0 1rem;
     background-color: #eee;
+    width: 100%;
     overflow: hidden;
 }
 .artic figure img {
@@ -117,6 +118,7 @@ width: 100%;
     border: 1px solid #bbb;
     padding: 0 1rem;
     background-color: #eee;
+    width:100% ;
    
 
 }
@@ -135,12 +137,15 @@ width: 100%;
 	margin: 10px 0 30px;
 	border: 1px solid #000;
     box-shadow: 0 0 30px #555;
+    display: none;
 }
 .hero {
     margin: 10px auto;
     width: 100%;
     height: auto;
-    position: relative;}
+    position: relative;
+    overflow: hidden;
+}
 .hero picture img {
     width: 100%;
     padding: 2rem;
@@ -161,6 +166,9 @@ width: 100%;
     }
     .stats h3 {
         text-align: center;
+    }
+    .contactinfo {
+        margin-top: 55px;
     }
 
 
