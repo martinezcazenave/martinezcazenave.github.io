@@ -30,6 +30,11 @@
     
     
     /*----------- MAIN --------------*/
+    
+    .contentbox {
+        display: block;
+     
+    }
     .artic figure img {
         display: block;
         padding: 1rem;
@@ -43,11 +48,11 @@
     .gmap {
         display: block;
     }
-    .stats {
-        top: 39px;
-        right: 580px;
-        line-height: 2px;
-        font-size: 13px;
+
+    }
+
+    .contactinfo {
+        margin: auto;
     }
     
     /*----------- FOOTER --------------*/
