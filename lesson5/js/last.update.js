@@ -16,3 +16,16 @@ try {
 } catch (e) {
     alert ("error")
 }
+
+
+function showPancake() {
+    var date = new Date();
+    var dayOfWeek = date.getDay();
+  
+    if (dayOfWeek == 5) {
+      var pancake = document.getElementById("pancake");
+      pancake.style.display = "block";
+    }
+  }
+  
+  showPancake()

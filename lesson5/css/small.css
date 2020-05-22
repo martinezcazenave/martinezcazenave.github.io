@@ -12,6 +12,15 @@ body {
     
 }
 
+#pancake{
+    background-color: #FFDF6E;
+    padding: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    display: none;
+
+}
+
 
 /*----------- HEADER --------------*/
 header {
