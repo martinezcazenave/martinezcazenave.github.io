@@ -18,7 +18,7 @@ try {
 }
 
 
-function showPancake() {
+
     var date = new Date();
     var dayOfWeek = date.getDay();
   
@@ -26,6 +26,4 @@ function showPancake() {
       var pancake = document.getElementById("pancake");
       pancake.style.display = "block";
     }
-  }
   
-  showPancake()
