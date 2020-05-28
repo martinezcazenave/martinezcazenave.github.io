@@ -146,12 +146,11 @@ width: 100%;
 }
 .hero {
     margin: 10px auto;
-    width: 100%;
+    width: 90%;
     height: auto;
     position: relative;
     overflow: hidden;
 }
-
 
     .stats {
         position: absolute;
