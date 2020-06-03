@@ -1,0 +1,13 @@
+.center {
+    display: grid;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border: 1px solid #333;
+    padding: 2px;
