@@ -97,6 +97,7 @@ nav ul li.active a {
 .gallery {
     margin: 0em;
     display: grid;
+    justify-items: center;
     grid-gap: 5px;
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
@@ -119,7 +120,6 @@ picture {
     width: 100%;
 }
 figure {
-    width: 100%;
     background-color: rgb(111,45,189);
     border: rgb(111,45,189);
     text-align: center;
