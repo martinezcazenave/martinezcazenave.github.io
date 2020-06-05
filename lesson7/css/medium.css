@@ -1,0 +1,62 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+    
+    
+    
+    /*----------- HEADER --------------*/
+        header img{width: auto;}
+        header h1{font-size: 2rem;}
+        .m {font-size: 1.5rem}
+    
+    
+    /*----------- NAVIGATION --------------*/
+    
+    
+    nav button {display: none;}
+    nav ul.hide {display: block;}
+    nav ul { display: flex;     
+    }
+
+    nav ul li {float: left;}
+    
+    
+    nav ul li a{
+        padding: .5rem 1rem;
+    font-size: 1rem;
+    }
+    
+    
+    /*----------- MAIN --------------*/
+    .gallery {
+            grid-template-columns: 1fr 1fr;
+    }
+    .forecast {
+        display: block;
+     
+    }
+    .artic figure img {
+        display: block;
+        padding: 1rem;
+        float: right;
+        width: 50%;
+        }
+
+    .contact {
+        grid-template-columns: 1fr 1fr;
+    }
+    .gmap {
+        display: block;
+    }
+
+    }
+
+    .contactinfo {
+        margin: auto;
+    }
+    
+    /*----------- FOOTER --------------*/
+        
+     /* end of media query */
