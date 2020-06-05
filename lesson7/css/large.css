@@ -28,7 +28,7 @@
 .gallery {
     grid-template-columns: repeat(3, 1fr);
 }
-}
+
 /*----------- FOOTER --------------*/
-    
+}   
 /* end of media query */
