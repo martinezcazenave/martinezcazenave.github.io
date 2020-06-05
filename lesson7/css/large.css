@@ -3,10 +3,8 @@
     nav ul li a {
         padding: .6rem 1rem;
     }
-    header, nav, main, footer {
-   
-    }
-}
+ 
+
 
 
 /*----------- BODY --------------*/
@@ -25,6 +23,11 @@
 
 .shadow:hover {
     box-shadow: 0 0 50px #333;
+    
+}
+.gallery {
+    grid-template-columns: repeat(3, 1fr);
+}
 }
 /*----------- FOOTER --------------*/
     
