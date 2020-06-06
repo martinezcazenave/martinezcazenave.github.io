@@ -105,10 +105,16 @@ nav ul li.active a {
 .gallery figure img {
      width: 100%;
      padding: 5px;
+     border: solid 2px rgb(111,45,189);
      
 }
 .gallery figure img[data-src] {
     filter: blur(0.2em);
+ }
+ .gallery figure figcaption {
+     background-color: rgb(184,208,235);
+     margin: auto;
+     
  }
 main {
     padding: 1rem 2%;
@@ -124,7 +130,7 @@ picture {
     width: 100%;
 }
 figure {
-    background-color: rgb(111,45,189);
+    background-color: white;
     border: rgb(111,45,189);
     text-align: center;
     color: blue;
