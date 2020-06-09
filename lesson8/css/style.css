@@ -1,9 +1,10 @@
 table {
    width: 300px;
    border-collapse: collapse;
+   margin-top: 100px;
    margin-right: auto;
    margin-left: auto;
-   box-shadow: 0 0 50px #333;
+   box-shadow: 10px 5px 5px #7fb9c2;
 }
 table, th, td {
     border: 1.5px solid rgb(228, 222, 222);
@@ -23,7 +24,9 @@ th {
  
 }
 
-tr:nth-child(even) {background-color: #e7f0ed;}
+tr {
+    background-color: #e7f0ed;
+}
 tr:nth-child(odd) {background-color: #e7ffed;}
 .blue {
     background-color:  #628ca6;
