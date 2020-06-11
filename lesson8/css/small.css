@@ -270,6 +270,9 @@ form label.sbs {
     padding: .75rem 0;
     color: #555;
 }
+form label.meter {
+    color: rgb(155, 61, 61);
+}
 
 form input.submitBtn {
     border: none;

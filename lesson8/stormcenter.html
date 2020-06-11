@@ -67,7 +67,7 @@
             </fieldset>
 
             <fieldset>
-            <legend>Funding</legend>
+            <legend>Weather Condition</legend>
             <label class="top">Storm Date <input type="date" name="Storm Date"></label>
             <label class="top">Storm Type <input list="stormtype" name="severity"></label>
                     <datalist id="stormtype">
@@ -96,6 +96,22 @@
                   <option value="9">
                   <option value="10">
                 </datalist>
+
+                <label class="top">Storm Region
+                    <select name="subject">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                                     
+                        </select>
+                    </label>
+
+                    <div>User in-danger Level</div>
+                    <label class="sbs"><input type="radio" name="Audience" value="Yes"> Yes</lavel>
+                    <label class="sbs"><input type="radio" name="Audience" value="maybe"> Maybe</lavel>
+                    <label class="sbs"><input type="radio" name="Audience" value="no"> No</lavel>
+                    
             
             </fieldset>
         
