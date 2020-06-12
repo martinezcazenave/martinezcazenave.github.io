@@ -307,7 +307,6 @@ form label.top input:required:valid {
     background-color: #b8d0eb;
     text-align: center;
     width: 100%;
-    align-items: center;
     padding: 10px;
 }
 
