@@ -303,6 +303,13 @@ form label.top input:required:valid {
   	margin: 0 15px;
 }
 
+.thanks {
+    background-color: #b8d0eb;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
 
 /*----------- FOOTER --------------*/
 footer {
