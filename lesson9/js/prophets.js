@@ -32,6 +32,4 @@ fetch(requestURL)
         document.querySelector('div.cards').appendChild(card); 
     }
   
-}); 
- 
-  
+});   

@@ -1,0 +1,41 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+ 
+
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+.townname{
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+article {
+    flex-direction: column;
+}
+
+figure:hover {
+    box-shadow: 0 0 50px #333;
+ }
+
+.gallery {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/*----------- FOOTER --------------*/
+}   
+/* end of media query */
