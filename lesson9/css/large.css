@@ -28,12 +28,15 @@ article {
     flex-direction: column;
 }
 .townname img {
-    width: 30%;
+    width: 80%;
 }
 
 figure:hover {
     box-shadow: 0 0 50px #333;
  }
+ article:nth-child(odd) {
+    flex-direction: column;
+}
 
 .gallery {
     grid-template-columns: repeat(3, 1fr);
