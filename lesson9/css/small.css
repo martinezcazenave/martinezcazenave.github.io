@@ -244,6 +244,7 @@ td {
 
 .townname img {
     width: 80%;
+    height: auto;
     border: 2px solid blue;
     margin: 5px;
     align-self: center;
@@ -257,7 +258,8 @@ article {
     background-color:rgb(119, 119, 235);
     line-height: 0px;
     border: 2px solid blue;
-    font-family: 'Questrial'; 
+    font-family: 'Questrial';
+    overflow: hidden; 
 }
 
 
