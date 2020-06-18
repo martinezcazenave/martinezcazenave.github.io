@@ -256,7 +256,6 @@ article {
     flex-direction: column;
     justify-content: center;
     background-color:rgb(119, 119, 235);
-    line-height: 0px;
     border: 2px solid blue;
     font-family: 'Questrial';
     overflow: hidden; 
