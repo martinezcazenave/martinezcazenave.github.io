@@ -27,6 +27,9 @@
 article {
     flex-direction: column;
 }
+.townname img {
+    width: 30%;
+}
 
 figure:hover {
     box-shadow: 0 0 50px #333;

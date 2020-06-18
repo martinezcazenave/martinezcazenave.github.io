@@ -39,6 +39,9 @@
         flex-direction: row-reverse;
     }
 
+    .townname img {
+        width: 50%;
+    }
     .gallery {
         grid-template-columns: repeat(2, 1fr)    }
     .forecast {
