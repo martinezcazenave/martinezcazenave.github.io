@@ -46,7 +46,7 @@ fetch(requestURL)
       if (i == 1 || i == 4 || i == 5) {
         let town = document.createElement('article');
         let h2 = document.createElement('h2');
-        let motto = document.createElement('p');
+        let motto = document.createElement('h3');
         let year = document.createElement('p');
         let population = document.createElement('p');
         let rainfall = document.createElement('p');

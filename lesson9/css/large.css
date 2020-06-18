@@ -42,6 +42,11 @@ figure:hover {
     grid-template-columns: repeat(3, 1fr);
 }
 
+article h3 {
+    font-size: 14px;
+overflow-wrap: break-word;
+}
+
 /*----------- FOOTER --------------*/
 }   
 /* end of media query */
