@@ -44,34 +44,41 @@ fetch(requestURL)
 
     for (let i = 0; i < cities.length; i++) {
       if (i == 1 || i == 4 || i == 5) {
-        let town = document.createElement('article');
+        let section = document.createElement('article');
+        section.classList.add('maincontainer')
+        let containtext = document.createElement('div');
+        containtext.classList.add('textcol');
         let h2 = document.createElement('h2');
         let motto = document.createElement('h3');
         let year = document.createElement('p');
         let population = document.createElement('p');
         let rainfall = document.createElement('p');
-        let image = document.createElement('img');
-        let alt = document.createElement('alt');
-
-
-        // alt.setAttribute('alt', towns[i].name);
-        image.setAttribute('src', "images/" + cities[i].photo);  
+          
         h2.textContent = cities[i].name;
         motto.textContent = cities[i].motto;
         year.textContent = 'Year Founded: ' + cities[i].yearFounded;
         population.textContent = 'Population: ' + cities[i].currentPopulation;
         rainfall.textContent = 'Annual Rain Fall: ' + cities[i].averageRainfall;
 
-        town.appendChild(h2);
-        town.appendChild(motto);
-        town.appendChild(year);
-        town.appendChild(population);
-        town.appendChild(rainfall);
-        town.appendChild(image);
-        // town.appendChild(alt);
+        containtext.appendChild(h2);
+        containtext.appendChild(motto);
+        containtext.appendChild(year);
+        containtext.appendChild(population);
+        containtext.appendChild(rainfall);
 
 
-        document.querySelector('div.townname').appendChild(town);
+                // alt.setAttribute('alt', towns[i].name);
+          let picture = document.createElement('div');
+          picture.classList.add('homepic')
+          let image = document.createElement('img');
+          image.setAttribute('src', "images/" + cities[i].photo);
+          picture.appendChild(image)
+          
+          section.appendChild(containtext)
+          section.appendChild(picture)
+          
+
+        document.querySelector('div.townname').appendChild(section);
       }
     }
   });

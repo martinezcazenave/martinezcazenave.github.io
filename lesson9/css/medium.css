@@ -39,8 +39,25 @@
         flex-direction: row-reverse;
     }
 
-    .townname img {
+    .textcol {
+       width: 50%;
+       padding: 25px 0;
+    }
+    .homepic {
+        margin-top: 8px;
         width: 50%;
+
+    }
+    .news p {
+        width: 50%;
+    }
+    .news {
+        display: flex;
+        flex-direction: row;
+    }
+    .news img {
+        width: 50%;
+    
     }
     .gallery {
         grid-template-columns: repeat(2, 1fr)    }

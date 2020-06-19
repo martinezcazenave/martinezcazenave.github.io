@@ -236,16 +236,17 @@ td {
 
 .townname {
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     margin: 1rem auto;      
 }
 
-.townname img {
-    width: 80%;
+.homepic img {
+    width: 90%;
     height: auto;
     border: 2px solid blue;
+    border-radius: 15px;
     margin: 5px;
     align-self: center;
 }
@@ -255,13 +256,22 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:rgb(119, 119, 235);
+    background-color:rgb(184, 208, 235);
     border: 2px solid blue;
-    font-family: 'Questrial';
-    overflow: hidden; 
+    border-radius: 15px;
+    font-family: 'Questrial';   
 }
 
+.news {
+     text-align: center;
+}
 
+.news img {
+    margin: 3px;
+    width: 90%;
+    height: auto;
+
+}
 /* ----------Form--------------*/
 form fieldset {
     margin: 2rem 0;
