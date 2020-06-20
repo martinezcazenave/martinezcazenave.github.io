@@ -41,11 +41,15 @@ fetch(requestURL)
   .then(function (jsonObject) {
     // console.table(jsonObject);  // temporary checking for valid response and data parsing
     const cities = jsonObject['towns'];
-
+    
     for (let i = 0; i < cities.length; i++) {
-      if (i == 1 || i == 4 || i == 5) {
+    let place = cities[i]
+    let townname = ["Fish Haven", "Preston", "Soda Springs"]
+        if (townname.includes(place.name)) {
+       // creating an article section 
         let section = document.createElement('article');
         section.classList.add('maincontainer')
+        // creating first div
         let containtext = document.createElement('div');
         containtext.classList.add('textcol');
         let h2 = document.createElement('h2');
@@ -54,11 +58,11 @@ fetch(requestURL)
         let population = document.createElement('p');
         let rainfall = document.createElement('p');
           
-        h2.textContent = cities[i].name;
-        motto.textContent = cities[i].motto;
-        year.textContent = 'Year Founded: ' + cities[i].yearFounded;
-        population.textContent = 'Population: ' + cities[i].currentPopulation;
-        rainfall.textContent = 'Annual Rain Fall: ' + cities[i].averageRainfall;
+        h2.textContent = place.name;
+        motto.textContent = place.motto;
+        year.textContent = 'Year Founded: ' + place.yearFounded;
+        population.textContent = 'Population: ' + place.currentPopulation;
+        rainfall.textContent = 'Annual Rain Fall: ' + place.averageRainfall;
 
         containtext.appendChild(h2);
         containtext.appendChild(motto);
@@ -66,12 +70,11 @@ fetch(requestURL)
         containtext.appendChild(population);
         containtext.appendChild(rainfall);
 
-
-                // alt.setAttribute('alt', towns[i].name);
+            // creating second div
           let picture = document.createElement('div');
           picture.classList.add('homepic')
           let image = document.createElement('img');
-          image.setAttribute('src', "images/" + cities[i].photo);
+          image.setAttribute('src', "images/" + place.photo);
           picture.appendChild(image)
           
           section.appendChild(containtext)
