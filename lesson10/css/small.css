@@ -273,6 +273,9 @@ article {
     height: auto;
 
 }
+h3 {
+    text-align: center;
+}
 /* ----------Form--------------*/
 form fieldset {
     margin: 2rem 0;
