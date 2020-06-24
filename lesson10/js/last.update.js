@@ -90,7 +90,7 @@ fetch(requestURL)
   });
 
   //weather API
-  const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=5c3caa1b5caabeae3d05c45c9ed42ddd";
+  const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=5c3caa1b5caabeae3d05c45c9ed42ddd";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
