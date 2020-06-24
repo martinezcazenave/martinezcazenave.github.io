@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Preston Website W07">
+<meta name="author" content="Federico Martinez">
+
+<title>The Weather Maniac</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<link rel="shortcut icon" href="weatherfavicon.ico">
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+  <div id="pancake">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion. </div>
+	<header class=clearfix>
+    <img src="images/logo.svg" alt="logo" height="50" width="35">
+    <section class="headings">
+        <h1>The Weather Maniac</h1>
+        <div class="m">Passion For The Weather</div>
+        </section>
+    </header>
+    
+    
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>              
+            <li><a href="index.html">Soda Springs</a></li>
+            <li><a href="index.html">Fish Haven</a></li> 
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+        </ul>
+
+    </nav>
+    
+
+
+    <main>
+    <div class="thanks">
+        <h2>Thank you very much for the information!</h2>
+        <h3>We will get the data up as soon as we can.</h3>
+     </div>
+    </main>
+       
+<footer>
+    <p> &#169; The Weather Maniac | <span id="currentdate"></span></p>
+</footer>
+  <script src="js/last.update.js"></script>
+  <script src="js/imageloader.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+          WebFont.load({google: {families: ["Galada", "Questrial"]} });
+        </script>
+  
+
+</body>
+</html>
