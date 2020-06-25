@@ -61,7 +61,7 @@
     }
     .gallery {
         grid-template-columns: repeat(2, 1fr)    }
-    .forecast {
+    .tableforecast {
         display: block;
      
     }

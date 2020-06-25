@@ -41,8 +41,8 @@
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
             <li class="active"><a href="preston-10.html">Preston</a></li>              
-            <li><a href="index.html">Soda Springs</a></li>
-            <li><a href="index.html">Fish Haven</a></li> 
+            <li><a href="preston-10.html">Soda Springs</a></li>
+            <li><a href="preston-10.html">Fish Haven</a></li> 
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
@@ -54,9 +54,9 @@
         <h2>Preston Idaho</h2>
         <div class="hero">
           <picture>
-            <source srcset="images/wdd230_franklin_0.jpg" media="(max-width: 599px)">
-              <source srcset="images/wdd230_franklin_1.jpg" media="(min-width: 600px) and (max-width: 799px)">
-              <img src="images/wdd230_franklin_2.jpg" alt="assigment_picture"> 
+            <source srcset="images/temple_view_0.jpg" media="(max-width: 599px)">
+              <source srcset="images/temple_view_1.jpg" media="(min-width: 600px) and (max-width: 799px)">
+              <img src="images/temple_view_2.jpg" alt="assigment_picture"> 
           </picture>
           <section class="stats">
         <h3>Weather Summary</h3>
@@ -67,31 +67,32 @@
         <p>Wind Speed: <span id="wind"></span>mph</p>
       </section>   
           </div>
-        <div class="forecast">
+          
+        <div class="tableforecast">
           <h3>5 Day Forecast</h3>
-          <table>
+         <table>
             <thead>
               <tr>
-                <th>Wed</th>
-                <th>Thr</th>
-                <th>Fri</th>
-                <th>Sat</th>
-                <th>Sun</th>
+                <th><span id="dayoftheweek1"></span></th>
+                <th><span id="dayoftheweek2"></span></th>
+                <th><span id="dayoftheweek3"></span></th>
+                <th><span id="dayoftheweek4"></span></th>
+                <th><span id="dayoftheweek5"></span></th>
 
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>
-                  <img src="images/sun_icon.png" alt="thesun"><br> 82 &#xb0; </td>
+                  <img src="images/sun_icon.png" alt="thesun"><br> <span id="forecast1"></span> &#xb0; F </td>
                 <td>
-                  <img src="images/sun_icon.png" alt="thesun"><br> 79 &#xb0; </td>
+                  <img src="images/sun_icon.png" alt="thesun"><br> <span id="forecast2"></span> &#xb0; F </td>
                 <td>
-                  <img src="images/sun_icon.png" alt="thesun"><br> 87 &#xb0; </td>
+                  <img src="images/sun_icon.png" alt="thesun"><br> <span id="forecast3"></span> &#xb0; F </td>
                 <td>
-                  <img src="images/sun_icon.png" alt="thesun"><br> 88 &#xb0;  </td>
+                  <img src="images/sun_icon.png" alt="thesun"><br> <span id="forecast4"></span> &#xb0; F </td>
                 <td>
-                  <img src="images/sun_icon.png" alt="thesun"><br> 91 &#xb0;  </td>
+                  <img src="images/sun_icon.png" alt="thesun"><br> <span id="forecast5"></span> &#xb0; F </td>
                 
               </tr>
             </tbody>
