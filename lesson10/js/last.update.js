@@ -120,7 +120,9 @@ fetch(apiURL)
           document.getElementById(`forecast${day+1}`).textContent = screenforecast.main.temp;
           document.getElementById(`dayoftheweek${day+1}`).textContent = weekdays[d.getDay()];
 
-          const imagesrc = `https://api.openweathermap.org/img/w/${screenforecast.weather[0].icon} .png`;
+          const imagesrc = 'https://openweathermap.org/img/wn/' + screenforecast.weather[0].icon + '.png';
+
+
           const desc = screenforecast.weather[0].description;
           document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
           document.getElementById(`icon${day+1}`).setAttribute('alt', desc);
