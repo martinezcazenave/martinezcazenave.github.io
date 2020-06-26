@@ -251,6 +251,9 @@ td {
     align-self: center;
 }
 
+
+}
+
 article {
     text-align: center;
     display: flex;
@@ -275,6 +278,10 @@ article {
 }
 h3 {
     text-align: center;
+}
+
+.tableforecast img {
+    width: 70px;
 }
 /* ----------Form--------------*/
 form fieldset {
