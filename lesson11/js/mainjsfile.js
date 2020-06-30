@@ -77,8 +77,8 @@ else {// just load All immages if not supported
 }
 
 //WindChill
-var t= parseFloat(document.getElementById("temp").textContent);
-var s= parseFloat(document.getElementById("wind").textContent);
+var t= parseFloat(document.getElementById("temp").innerHTML);
+var s= parseFloat(document.getElementById("wind").innerHTML);
 function WindChill(){
 var f= Math.round((35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16)) * 10)/10;
 
