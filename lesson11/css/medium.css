@@ -52,11 +52,13 @@
         width: 50%;
     }
     .news {
-        display: flex;
-        flex-direction: row;
+        display: block
+    
     }
     .news img {
         width: 50%;
+        float: right;
+    
     
     }
     .gallery {
