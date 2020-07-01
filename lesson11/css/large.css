@@ -53,6 +53,10 @@ figure:hover {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.gallery figure {
+    margin: 5px;
+}
+
 
 article h3 {
     font-size: 14px;
