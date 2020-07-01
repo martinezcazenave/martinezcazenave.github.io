@@ -360,6 +360,25 @@ form label.top input:required:valid {
     padding: 10px;
 }
 
+.upcomingevents {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 500px;
+    background-color: #b8d0eb;
+    padding: 5px;
+    border-radius: 15px;
+    border: solid blue;
+    font-family: 'Questrial';
+
+
+}
+.upcomingevents hr {
+    border-color: blue;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: rgb(166,99,204);
