@@ -40,14 +40,10 @@ article:nth-child(odd) {
 .homepic {
     width: 100%;
 }
-.texcol{
-   
-}
 
 figure:hover {
     box-shadow: 0 0 50px #333;
  }
-
 
 .gallery {
     grid-template-columns: repeat(3, 1fr);
