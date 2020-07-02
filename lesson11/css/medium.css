@@ -50,6 +50,7 @@
     }
     .news p {
         width: 50%;
+        font-size: 18px;
     }
     .news {
         display: block

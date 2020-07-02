@@ -145,13 +145,28 @@ figure {
     text-align: center;
     margin: 0.5rem;
     border: 1px solid #bbb;
-    padding: 0 1rem;
+    padding: 15px;
     background-color: #eee;
     width: 100%;
     overflow: hidden;
+
 }
+.artic p {
+    text-align: left;
+}
+
 .artic figure img {
 width: 100%;
+}
+
+.prestonhistory {
+    text-decoration: none;
+    border: solid 1px ;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    
 }
 .contact {
     display: grid;
@@ -162,6 +177,8 @@ width: 100%;
     padding: 0 1rem;
     background-color: #eee;
     width:100% ;
+    overflow: hidden;
+    font-family: 'Questrial';
    
 
 }
@@ -370,7 +387,7 @@ form label.top input:required:valid {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    width: 500px;
+    width: 400px;
     background-color: #b8d0eb;
     padding: 5px;
     border-radius: 15px;
@@ -390,7 +407,14 @@ footer {
     font-size: 12px;
     padding: .5rem 2%;
     text-align: center;
-    clear: both
+    clear: both;
+
+    
+}
+.footmap {
+    text-decoration: none;
+    color: white;
+
 }
 
 

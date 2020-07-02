@@ -59,6 +59,10 @@ article h3 {
 overflow-wrap: break-word;
 }
 
+.news p {
+    font-size: 22px;
+}
+
 /*----------- FOOTER --------------*/
 }   
 /* end of media query */
