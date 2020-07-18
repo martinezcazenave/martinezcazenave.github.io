@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+    <title>Scoots Rentals</title>
+    <meta name="description" content="WDD230 Website Planning Document">
+
+    <link rel="shortcut icon" href="scoots _logo.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+<div class="side">
+
+    <header class="clearfix">
+        <a href="index.html"><img src="images/Scoots Logo.svg" alt="logo" height="60" width="60"></a>
+        <section class="headings">
+            <h1>Scoots</h1>
+            <div class="m">Your Rental Covered</div>
+            </section>
+          </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="rental.html" >Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+    <main>
+       <div class="contactinformation">
+       <div class="address">
+           <div class="sitea">    
+        <h2>Scoots Site A</h2>
+        <p>Av. Rafael E. Melgar and Calle 17</p>
+        <P>Gonzalo Guerrero, 77600</P>
+        <p>San Miguel de Cozumel, Q.R. Mexico</p>
+        <p>&#9742; 999-999-9991</p>
+        <p>&#9993;contact@scootsrentals.com</p>
+        </div>
+            <div class="siteb">    
+            <h2>Scoots Site B</h2>
+            <p>Av. Rafael E. Melgar and Calle 17</p>
+            <P>Gonzalo Guerrero, 77600</P>
+            <p>San Miguel de Cozumel, Q.R. Mexico</p>
+            <p>&#9742; 999-999-9992</p>
+            <p>&#9993;contact@scootsrentals.com</p>
+            </div>
+
+         </div>
+      
+        <div class="googlemaps">
+            <section class="embmap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.088973210305!2d-86.95987709922302!3d20.502578595151345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59dc6a955555%3A0x73e78abda3bd4ccb!2sCozumel%20Convention%20Center!5e0!3m2!1sen!2smx!4v1594518948554!5m2!1sen!2smx" width="400" height="250" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+            <section class="embmap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1868.4277748881636!2d-86.95197932806013!3d20.51214699757466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cf2021d239%3A0x11ea4c82f9b26029!2sMuelle%20Ferry%20Cozumel!5e0!3m2!1sen!2smx!4v1594523166671!5m2!1sen!2smx" width="400" height="250" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    </div>
+    <div class="icons">
+    <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a>
+    <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a>
+    <a href="https://twitter.com/"><img src="images/twitter.png" alt="twitter"></a>
+</div>
+</div>
+
+<form method="get" action="thanks.html">
+    <fieldset>
+        <legend>Send Us a Message</legend>
+       <label class="top">Full Name*<input type="text" name="fullname" placeholder="First and Last Name" pattern="[A-Za-z].{4,}" required></label>
+       <label class="top">Email<input type="email" name="email" placeholder="your@email.com"></label>
+       <label class="top" for="info"><textarea  name="info" rows="8" cols="70"></textarea></label>
+       
+   </fieldset>
+
+<input type="submit" value="Send Your Message" class="submitBtn">
+</form>
+
+    </main>
+   
+    <footer>
+        <p> &#169; 2020 | Scoots |Scooters, ATVs and Jeep Rentals | </p><p id="lastupdated"></p>
+    </footer>
+      <script src="java/last.update.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script>
+        WebFont.load({google: {families: ["Bangers", "Fondamento", "Roboto"]} });
+      </script>
+</body>
+
+</html>

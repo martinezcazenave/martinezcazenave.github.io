@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+    <title>Scoots Rentals</title>
+    <meta name="description" content="WDD230 Website Planning Document">
+
+    <link rel="shortcut icon" href="scoots _logo.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+<div class="side">
+
+    <header class="clearfix">
+        <a href="index.html"><img src="images/Scoots Logo.svg" alt="logo" height="60" width="60"></a>
+        <section class="headings">
+            <h1>Scoots</h1>
+            <div class="m">Your Rental Covered</div>
+            </section>
+          </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="rental.html" class="active">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+    <main>
+        <table class="rental_table">
+            <thead>
+            <tr>
+                <th colspan="6">Rental Prices</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="2">With<br>Reservation</td>
+                <td colspan="2">walk-in</td>
+            </tr>
+            <tr>
+                <th>Rental Type</th>
+                <th>Max. Persons</th>
+                <th>Half Day (3hrs)</th>
+                <th>Full Day</th>
+                <th>Half Day (3hrs)</th>
+                <th>Full Day</th>
+            </tr>
+            
+            <tr>
+                <td>Honda Metro Scooter</td>
+                <td>1</td>
+                <td>$20</td>
+                <td>$30</td>
+                <td>$25</td>
+                <td>$35</td>
+            </tr>
+            <tr>
+                <td>Honda Dio Scooter</td>
+                <td>2</td>
+                <td>$30</td>
+                <td>$40</td>
+                <td>$35</td>
+                <td>$45</td>
+            </tr>
+            <tr>
+                <td>Honda PCX150 Scooter</td>
+                <td>2</td>
+                <td>$40</td>
+                <td>$50</td>
+                <td>$45</td>
+                <td>$55</td>
+            </tr>
+            <tr>
+                <td>Honda Pioneer ATV</td>
+                <td>4</td>
+                <td>$50</td>
+                <td>$70</td>
+                <td>$60</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>Jeep Wrangler - 4 door with a/c</td>
+                <td>5</td>
+                <td>$70</td>
+                <td>$100</td>
+                <td>$85</td>
+                <td>$125</td>
+            </tr>
+            <tr>
+                <td>Jeep Wrangler - 2 door</td>
+                <td>4</td>
+                <td>$60</td>
+                <td>$85</td>
+                <td>$70</td>
+                <td>$90</td>
+            </tr>
+
+        </tbody>
+
+
+        </table>
+
+    </main>
+   
+    <footer>
+        <p> &#169; 2020 | Scoots |Scooters, ATVs and Jeep Rentals | </p><p id="lastupdated"></p>
+    </footer>
+      <script src="java/tablescript.js"></script>
+      <script src="java/last.update.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script>
+        WebFont.load({google: {families: ["Bangers", "Fondamento", "Roboto"]} });
+      </script>
+</body>
+
+</html>

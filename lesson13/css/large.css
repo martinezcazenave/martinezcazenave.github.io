@@ -1,0 +1,18 @@
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+	nav ul li a {
+		font-size: 25px;
+	}
+	.gallery {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	
+	.gallery figure {
+		margin: 5px;
+	}
+}

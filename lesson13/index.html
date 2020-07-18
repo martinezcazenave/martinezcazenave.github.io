@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+    <title>Scoots Rentals</title>
+    <meta name="description" content="WDD230 Website Planning Document">
+
+    <link rel="shortcut icon" href="scoots _logo.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+<div class="side">
+
+    <header class="clearfix">
+        <a href="index.html"><img src="images/Scoots Logo.svg" alt="logo" height="60" width="60"></a>
+        <section class="headings">
+            <h1>Scoots</h1>
+            <div class="m">Your Rental Covered</div>
+            </section>
+          </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="rental.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+    <main>
+
+      <div class="box">
+        <a href="reservations.html" class="callaction">Book Now, Don't Miss the Oportunity</a>
+
+      </div>
+    
+      <div class="vehicle_title">
+        <h2>Meet Our Fleet</h2>
+        <p>We offer scooters, ATVs and jeep rentals. These are some of the vehicles on our fleet.</p>
+      </div>
+      
+      <div class="vehicle_samples">
+        
+        <picture>   
+          <img src="images/scooter.jpg" alt="Scooter">
+        </picture>
+        <picture>   
+          <img src="images/atv.jpg" alt="ATVs">
+        </picture>
+        <picture>   
+          <img src="images/jeepwrangler.jpg" alt="Jeep">
+        </picture>
+
+
+      </div>
+
+      <div class="weather_info">
+        <section class="stats">
+            <h3>Weather Summary</h3>
+            <p>Current Condition: <span id="current"></span></p>
+            <p>Temperature: <span id="temp"></span> &#xb0;F</p>
+            <p>Humidity: <span id="humidity"></span>&#37;</p>
+          </section> 
+          
+          <div class="tableforecast">
+            <h3>5 Day Forecast</h3>
+           <table class="index_table">
+              <thead>
+                <tr>
+                  <th class="index_th"><span id="dayoftheweek1"></span></th>
+                  <th class="index_th"><span id="dayoftheweek2"></span></th>
+                  <th class="index_th"><span id="dayoftheweek3"></span></th>
+                  <th class="index_th"><span id="dayoftheweek4"></span></th>
+                  <th class="index_th"><span id="dayoftheweek5"></span></th>
+  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="index_td">
+                    <img id="icon1" src="#" alt=""> <br> <span id="forecast1"></span> &#xb0; F </td>
+                  <td class="index_td">
+                    <img id="icon2" src="#" alt=""> <br><span id="forecast2"></span> &#xb0; F </td>
+                  <td class="index_td">
+                    <img id="icon3" src="#" alt=""> <br> <span id="forecast3"></span> &#xb0; F </td>
+                  <td class="index_td">
+                    <img id="icon4" src="#" alt=""> <br> <span id="forecast4"></span> &#xb0; F </td>
+                  <td class="index_td">
+                    <img id="icon5" src="#" alt=""> <br> <span id="forecast5"></span> &#xb0; F </td>
+                  
+                </tr>
+              </tbody>
+            </table>
+  
+          </div>
+        </div>
+     
+          <section>
+           <h2>Contact</h1>
+           <h2>Site A &#9742;999-999-9991 </h1>
+           <h2>Site B &#9742;999-999-9992</h1>
+           <h2>&#9993; contact@scootsrentals.com</h1>
+
+            <div class="contact_the_site">
+              <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a>
+              <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a>
+              <a href="https://twitter.com/"><img src="images/twitter.png" alt="twitter"></a>
+          </div>
+
+
+       </section>
+      
+    </main>
+   
+    <footer>
+        <p> &#169; 2020 | Scoots |Scooters, ATVs and Jeep Rentals | </p><p id="lastupdated"></p>
+    </footer>
+      <script src="java/last.update.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+          WebFont.load({google: {families: ["Bangers", "Fondamento", "Roboto"]} });
+        </script>
+</body>
+
+</html>
