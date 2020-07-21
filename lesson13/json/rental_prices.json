@@ -33,7 +33,7 @@
         "fullday_walkin": "$80"
       },
      {
-        "type": "Jeep Wrangler-4D",
+        "type": "Jeep Wrangler-4 door with a/c",
         "max_person": "5",
         "halfday_reservation": "$70",
         "fullday_reservation": "$100",
@@ -41,7 +41,7 @@
         "fullday_walkin": "$125"
       },
       {
-        "type": "Jeep Wrangler-2D",
+        "type": "Jeep Wrangler-2 door",
         "max_person": "4",
         "halfday_reservation": "$60",
         "fullday_reservation": "$85",

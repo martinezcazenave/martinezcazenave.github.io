@@ -85,5 +85,17 @@ main section h2 {
     width: 30%;
     margin-left: 0px;
 }
+.fleet {
+    grid-template-columns: repeat(2, 1fr) 
+}
+.rental_title {
+    font-size: 40px;
+}
+.table_title {
+    font-size: 35px;
+}
+article ul {
+     grid-template-columns: repeat(2, 1fr)
 
+}
 }

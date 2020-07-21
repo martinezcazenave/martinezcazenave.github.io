@@ -91,7 +91,7 @@ main section h2 {
 color: black;
 }
 main section {
-	display: grid;
+	
 	width: auto;
     text-align: center;
     margin: 5px;
@@ -212,7 +212,7 @@ form {
 }
 
 form legend {
-	color: blue;
+	color: #561d25;
     margin: 0 1rem;
 	padding: 0 .5rem;
 	
@@ -221,7 +221,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: blue;
+    color: #561d25;
     font-size: .8rem;
 }
 
@@ -237,6 +237,22 @@ form label.top input, form label.top select {
 	width: 300px;
     background-color: rgba(0,0,0,0.1);
 }
+article {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	width: 100%;
+	background-color: #ecdd7b;
+max-width: 900px;
+	border-radius: 15px;
+	border: 4px solid #ce8147;
+
+}
+article ul {
+	width: 100%;
+}
+article ul li {
+	width: 100%;
+} 
 
 
 
@@ -441,37 +457,56 @@ form input.submitBtn {
 			color: white;
 		}
 
-			.rental_table {
+			
+		#rental_table {
 			border-collapse: collapse;
-			margin-top: 20px;
-			margin-bottom: 20px;
+			margin-top: 0px;
+			margin-bottom: 40px;
 			margin-right: auto;
 			margin-left: auto;
 			}
-		 .rental_table, th, td {
-			 border: 4px solid black;
+		 #rental_table, th, td {
+			 border: 3px solid #9c2c13;
 		 }
-		 .rental_table thead {
+		 #rental_table thead {
 			 font-size: 60px;
 		 }
-		 .rental_table th, td {
+		 #rental_table th, td {
 			 text-align: center;
 			 height: 35px;
 		 }
-		 .rental_table th {
-			 background-color: #7fb9c2;
+		 #rental_table th {
+			 background-color: #ecdd7b;
 			 font-size: 15px;
 	  
 		 }
 		 
-		 .rental_table tr {
+		 #rental_table tr {
 			 background-color: #e7f0ed;
 		 }
 		 
-		 .rental_table thead th{
+		 #rental_table thead th{
 			 font-size: 15px;
 		 }
-		
+
+.fleet {
+    margin: 0em;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+.rental_title {
+	text-align: center;
+	font-size: 30px;
+	color: #9c2c13;
+}	
+.table_title {
+	text-align: center;
+	font-size: 25px;
+	color: #9c2c13;
+}
+
 
 
 

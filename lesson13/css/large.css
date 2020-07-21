@@ -15,4 +15,7 @@
 	.gallery figure {
 		margin: 5px;
 	}
+	.fleet {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
