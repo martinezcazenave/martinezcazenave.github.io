@@ -51,7 +51,7 @@
                     <label class="top">Country*<input type="text" name="country" pattern="[A-Za-z].{4,}"></label>
 
                     
-                    <label class="top">US Customers <input list="states" name="USstates"></label>
+                    <label class="top">US Customers <input list="states" name="USstates">
                             <datalist id="states">
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
@@ -125,8 +125,8 @@
                              <option value="Site B">
                              </datalist>
 
-                             <label class="top">Rturn Office<input list="pickupoffice" name="selectpickup" required></label>
-                             <datalist id="pickupoffice">
+                             <label class="top">Rturn Office<input list="returnoffice" name="selectpickup" required></label>
+                             <datalist id="returnoffice">
                              <option value="Site A">
                              <option value="Site B">
                              </datalist>
@@ -139,9 +139,8 @@
                              <option value="Honda Pioneer ATV">
                              <option value="Jeep Wrangler - 4 Door with a/c">
                              <option value="Jeep Wrangler - 2 Door">
-                             </datalist>  
-                            
-                           
+                             </datalist>                            
+                        
 
                             
                         </fieldset>
@@ -149,7 +148,7 @@
                         <fieldset>
                            <legend>Additional Information/Request</legend>
 
-                           <label class="top" for="info"><textarea name="info" rows="8" cols="70"></textarea></label>
+                           <label class="top"><textarea name="info" rows="8" cols="70"></textarea></label>
                            <label class="top">Cruise Line<input list="cruiseline" name="cruise"></label>
                            <datalist id="cruiseline">
                            <option value="Royal Caribbean">
