@@ -48,7 +48,7 @@
                     <label class="top">Full Name*<input type="text" name="fullname" pattern="[A-Za-z].{4,}" required></label>
                     <label class="top">Email<input type="email" name="email" placeholder="your@email.com"></label>
                     <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <label class="top">Country*<input type="text" name="country" pattern="[A-Za-z].{4,}" required></label>
+                    <label class="top">Country*<input type="text" name="country" pattern="[A-Za-z].{4,}"></label>
 
                     
                     <label class="top">US Customers <input list="states" name="USstates"></label>
@@ -110,29 +110,28 @@
                     
                 </fieldset>
                 </form>
-                </div>
-                <div class="container">
+                
         
-                    <form method="get" action="thanks.html">
+                    <form method="get" action="confirmation.html">
                         <fieldset>
                              <legend>Dates and Rental Type</legend>
         
-                             <label class="top">Check-in<input type="date" name="Check-in"></label>
-                             <label class="top">Check-out<input type="date" name="Check-out"></label>
+                             <label class="top">Check-in<input type="date" name="Check-in" required></label>
+                             <label class="top">Check-out<input type="date" name="Check-out" required></label>
 
-                             <label class="top">Pick Up Office<input list="pickupoffice" name="selectpickup"></label>
+                             <label class="top">Pick Up Office<input list="pickupoffice" name="selectpickup" required></label>
                              <datalist id="pickupoffice">
                              <option value="Site A">
                              <option value="Site B">
                              </datalist>
 
-                             <label class="top">Rturn Office<input list="pickupoffice" name="selectpickup"></label>
+                             <label class="top">Rturn Office<input list="pickupoffice" name="selectpickup" required></label>
                              <datalist id="pickupoffice">
                              <option value="Site A">
                              <option value="Site B">
                              </datalist>
 
-                             <label class="top">Rental Type<input list="rentaltype" name="rental_type"></label>
+                             <label class="top">Rental Type<input list="rentaltype" name="rental_type" required></label>
                              <datalist id="rentaltype">
                              <option value="Honda Metro Scooter">
                              <option value="Honda Dio Scooter">
@@ -158,6 +157,7 @@
                            <option value="Carnival Cruise Line">
                            <option value="Norwegian Cruise Line">
                            <option value="Princess Cruises">
+                            <option value="Other">
                            </datalist> 
                            
                            
@@ -167,7 +167,9 @@
                         </form>
                         </div>
 
-                        <article>
+                        <article class="rental_agreement">
+
+                            <h3>Rental Agreement Information</h3>
                             <ul>
                             <li>A $50 security deposit is required to confirm reservations.</li> 
                             <li>A valid drivers license is required in hand at time of rental.</li> 
@@ -188,7 +190,7 @@
     <footer>
         <p> &#169; 2020 | Scoots |Scooters, ATVs and Jeep Rentals | </p><p id="lastupdated"></p>
     </footer>
-      <script src="java/last.update.js"></script>
+      <script src="java/topbottom.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
       <script>
         WebFont.load({google: {families: ["Bangers", "Fondamento", "Roboto"]} });

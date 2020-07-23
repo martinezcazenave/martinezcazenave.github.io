@@ -94,7 +94,7 @@ main section {
 	
 	width: auto;
     text-align: center;
-    margin: 5px;
+    margin: 30px;
     border: 1px solid #bbb;
     padding: 0 1rem;
 	background-color: #eee;
@@ -107,11 +107,34 @@ main section picture img {
     border: 1px solid #bbb;
     margin-top: 10px;
 }
+.thankyou {
+	text-align: center;
+	margin: 250px 20px 250px 20px;
+}
+.thankyou img {
+	margin-right: auto;
+	margin-left: auto;
+}
+.thankyou p {
+	
+	text-align: center;
+	font-size: 25px;
+}
+.confirmation {
+	text-align: center;
+	margin: 250px 20px 250px 20px;
+}
+.confirmation h3{
+font-size: 25px;
+}
+.confirmation p {
+	font-size: 15px;
+}
 
 
 footer p {
 	color: whitesmoke;
-	font-size: 10px;
+	font-size: 15px;
 }
 
 .headings {
@@ -235,24 +258,44 @@ form label.top input, form label.top select {
     color: #555;
     max-width: 900px;
 	width: 300px;
-    background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0.1);
+
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
 }
 article {
-	display: grid;
-	grid-template-columns: repeat(1, 1fr);
+	
+	text-align: center;
 	width: 100%;
 	background-color: #ecdd7b;
-max-width: 900px;
+	max-width: 900px;
 	border-radius: 15px;
 	border: 4px solid #ce8147;
 
 }
-article ul {
-	width: 100%;
+.rental_agreement ul {
+	text-align: left;
+	display: grid;
+	column-gap: 10px;
+	grid-template-columns: repeat(1, 1fr);
+	width: 90%;
 }
-article ul li {
+.rental_agreement ul li {
+	font-size: 15px;
 	width: 100%;
 } 
+.rental_agreement {
+	margin-bottom: 25px;
+}
+.rental_agreement h3 {
+	font-size: 25px;
+}
+
 
 
 
@@ -418,12 +461,12 @@ form input.submitBtn {
 		.vehicle_title h2 {
 
 			color: black;
-			font-size: 25px;
+			font-size: 30px;
 			text-align: center;
 		}
 		.vehicle_title p {
 			text-align: center;
-			font-size: 15px;
+			font-size: 20px;
 		}
 		.stats {
 			display: grid;
@@ -506,6 +549,26 @@ form input.submitBtn {
 	font-size: 25px;
 	color: #9c2c13;
 }
+.coolpics {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+}
+.coolpics figcaption{
+	text-align: center;
+	font-weight: 600;
+
+}
+.footmap {
+    text-decoration: none;
+    color: white;
+
+}
+
 
 
 

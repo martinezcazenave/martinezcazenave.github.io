@@ -1,3 +1,13 @@
+var x =document.lastModified;
+document.getElementById("lastupdated").innerHTML = "Last Updated:" + x;
+
+function toggleMenu() {
+
+    document.getElementById("primaryNav").classList.toggle("hide");
+}
+
+
+
 const requestURL = 'https://martinezcazenave.github.io/lesson13/json/rental_prices.json';
 
 fetch(requestURL)
