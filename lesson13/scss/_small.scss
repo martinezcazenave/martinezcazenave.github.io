@@ -1,11 +1,11 @@
 body {
 	font-size: 16px;
-	font-family: "Roboto";
+	font-family: $fontFamily2;
 }
 
 header {
 	max-width: 1200px;
-	background-color:#ce8147;
+	background-color: $Colorpallet2;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -15,11 +15,12 @@ header {
 
 footer {
 	width: 100%;
-	background-color:#ce8147;
+	background-color: $Colorpallet2;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 2px;
+    padding: 2px;
+    font-family: $fontFamily3;
 }
 
 header,
@@ -47,7 +48,7 @@ h2 {
 }
 
 nav {
-	background-color: #ce8147;
+	background-color: $Colorpallet2;
 	text-align: center;
 }
 nav ul {
@@ -65,12 +66,12 @@ nav ul li a {
 	font-size: 20px;
 }
 nav a:hover {
-	background-color: #cde7be;
+	background-color: $Colorpallet5;
 	color: #36454f;
 }
 nav ul.hide {display: none;}
 .active {
-	color: #561d25;
+	color: $Colorpallet1;
 }
 
 button {
@@ -145,7 +146,7 @@ footer p {
 .m {
     font-size: 12px;
     margin-left: 10px;
-	font-family: 'Fondamento';
+	font-family: $fontFamily1;
 	color: white;
 }
 
@@ -156,10 +157,10 @@ footer p {
   }
   
   .contactinformation {
-	  background-color: #ecdd7b;
+	  background-color: $Colorpallet3;
 		margin: 20px;
 		border-radius: 15px;
-		border: 4px solid #ce8147;
+		border: 4px solid $Colorpallet2;
   }
 
   .contactinformation img {
@@ -221,7 +222,7 @@ footer p {
 
 form fieldset {
     margin: 2rem 0;
-    border: 4px solid #ce8147;
+    border: 4px solid $Colorpallet2;
     border-radius: 10px;
 	padding: .5rem 2%;
 	font-size: 20px;
@@ -235,7 +236,7 @@ form {
 }
 
 form legend {
-	color: #561d25;
+	color: $Colorpallet1;
     margin: 0 1rem;
 	padding: 0 .5rem;
 	
@@ -244,7 +245,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #561d25;
+    color: $Colorpallet1;
     font-size: .8rem;
 }
 
@@ -272,10 +273,10 @@ article {
 	
 	text-align: center;
 	width: 100%;
-	background-color: #ecdd7b;
+	background-color: $Colorpallet3;
 	max-width: 900px;
 	border-radius: 15px;
-	border: 4px solid #ce8147;
+	border: 4px solid $Colorpallet2;
 
 }
 .rental_agreement ul {
@@ -321,7 +322,7 @@ form input.submitBtn {
     padding: 5px;
     border-radius: 10px;
     color: white;
-	background-color:#561d25;
+	background-color: $Colorpallet1;
 }
 
 	.history_section h2 {
@@ -335,9 +336,9 @@ form input.submitBtn {
 		width: auto;
 		text-align: left;
 		margin: 0.5rem;
-		border: 4px solid #ce8147;
+		border: 4px solid $Colorpallet2;
 		padding: 0 1rem;
-		background-color:#ecdd7b;
+		background-color: $Colorpallet3;
 		border-radius: 15px;
 	}
 	
@@ -352,9 +353,9 @@ form input.submitBtn {
 		width: auto;
 		text-align: left;
 		margin: 0.5rem;
-		border: 4px solid #ce8147;
+		border: 4px solid $Colorpallet2;
 		padding: 0 1rem;
-		background-color:#ecdd7b;
+		background-color:$Colorpallet3;
 		border-radius: 15px;
 	}
 	
@@ -408,9 +409,9 @@ form input.submitBtn {
 			color: #444;
 			font-style: italic;
 			display: none;
-			border: 5px solid #ce8147;
+			border: 5px solid $Colorpallet2;
 			border-radius: 15px;
-			background-color: #ecdd7b;
+			background-color: $Colorpallet3;
 		
 		}
 
@@ -424,16 +425,16 @@ form input.submitBtn {
 			padding: 5px;			
 		}
 		.index_th {
-			border: 3px solid #ce8147;
-			background-color: #d3e298;
+			border: 3px solid $Colorpallet2;
+			background-color: $Colorpallet4;
 			border-radius: 10px;
 			font-size: 1rem;
 			font-weight: 700;
-			color: #561d25;
+			color: $Colorpallet1;
 		}
 		.index_td {
-			border: 3px solid #ce8147;
-			background-color: #cde7be;
+			border: 3px solid $Colorpallet2;
+			background-color: $Colorpallet5;
 			border-radius: 10px;
 			font-size: 0.8rem;
 			text-align: center;
@@ -466,8 +467,8 @@ form input.submitBtn {
 		}
 		.stats {
 			display: grid;
-			background-color: #ecdd7b;
-			border: 5px solid #ce8147;
+			background-color: $Colorpallet3;
+			border: 5px solid $Colorpallet2;
 			text-align: center;
 			line-height: 1px;
 			padding: 1rem;
@@ -516,7 +517,7 @@ form input.submitBtn {
 			 height: 35px;
 		 }
 		 #rental_table th {
-			 background-color: #ecdd7b;
+			 background-color: $Colorpallet3;
 			 font-size: 15px;
 	  
 		 }
@@ -565,9 +566,3 @@ form input.submitBtn {
     color: white;
 
 }
-
-
-
-
-
-	

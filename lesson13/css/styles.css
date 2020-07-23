@@ -1,0 +1,921 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif; }
+
+header {
+  max-width: 1200px;
+  background-color: #ce8147;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0; }
+
+footer {
+  width: 100%;
+  background-color: #ce8147;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  font-family: "Times New Roman", Times, serif; }
+
+header,
+nav,
+footer {
+  width: 100%;
+  margin: 0 auto; }
+
+main {
+  max-width: 900px;
+  margin: 0 auto; }
+
+h1 {
+  color: whitesmoke;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+h2 {
+  color: whitesmoke;
+  font-size: 12px; }
+
+nav {
+  background-color: #ce8147;
+  text-align: center; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 20px; }
+
+nav a:hover {
+  background-color: #cde7be;
+  color: #36454f; }
+
+nav ul.hide {
+  display: none; }
+
+.active {
+  color: #561d25; }
+
+button {
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 15px; }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 0.8rem;
+  max-width: 900px; }
+
+main section h2 {
+  color: black; }
+
+main section {
+  width: auto;
+  text-align: center;
+  margin: 30px;
+  border: 1px solid #bbb;
+  padding: 0 1rem;
+  background-color: #eee;
+  border-radius: 15px; }
+
+main section picture img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #bbb;
+  margin-top: 10px; }
+
+.thankyou {
+  text-align: center;
+  margin: 250px 20px 250px 20px; }
+
+.thankyou img {
+  margin-right: auto;
+  margin-left: auto; }
+
+.thankyou p {
+  text-align: center;
+  font-size: 25px; }
+
+.confirmation {
+  text-align: center;
+  margin: 250px 20px 250px 20px; }
+
+.confirmation h3 {
+  font-size: 25px; }
+
+.confirmation p {
+  font-size: 15px; }
+
+footer p {
+  color: whitesmoke;
+  font-size: 15px; }
+
+.headings {
+  display: flex;
+  flex-direction: column; }
+
+.m {
+  font-size: 12px;
+  margin-left: 10px;
+  font-family: "Fondamento", cursive;
+  color: white; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.contactinformation {
+  background-color: #ecdd7b;
+  margin: 20px;
+  border-radius: 15px;
+  border: 4px solid #ce8147; }
+
+.contactinformation img {
+  width: 65px;
+  height: auto;
+  margin: 10px; }
+
+.googlemaps {
+  display: flex;
+  flex-direction: column; }
+
+.embmap {
+  margin: 15px;
+  border-radius: 15px; }
+
+.address {
+  display: flex;
+  flex-direction: column; }
+
+.sitea {
+  padding: 10px;
+  width: 100%;
+  text-align: center; }
+
+.sitea h2 {
+  font-size: 25px;
+  color: black; }
+
+.siteb {
+  padding: 10px;
+  width: 100%;
+  text-align: center; }
+
+.siteb h2 {
+  font-size: 25px;
+  color: black; }
+
+.sitea p {
+  font-size: 15px; }
+
+.siteb p {
+  font-size: 15px; }
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+form fieldset {
+  margin: 2rem 0;
+  border: 4px solid #ce8147;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  font-size: 20px; }
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+form legend {
+  color: #561d25;
+  margin: 0 1rem;
+  padding: 0 .5rem; }
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #561d25;
+  font-size: .8rem; }
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1.2rem;
+  border: solid 1px #999;
+  border-radius: 6px;
+  padding: .75rem;
+  color: #555;
+  max-width: 900px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.1); }
+
+form label.top input:required {
+  border-left: red solid 6px; }
+
+form label.top input:required:valid {
+  border-left: green solid 6px; }
+
+article {
+  text-align: center;
+  width: 100%;
+  background-color: #ecdd7b;
+  max-width: 900px;
+  border-radius: 15px;
+  border: 4px solid #ce8147; }
+
+.rental_agreement ul {
+  text-align: left;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+  width: 90%; }
+
+.rental_agreement ul li {
+  font-size: 15px;
+  width: 100%; }
+
+.rental_agreement {
+  margin-bottom: 25px; }
+
+.rental_agreement h3 {
+  font-size: 25px; }
+
+form input.submitBtn {
+  border: none;
+  font-size: 15px;
+  background-color: #9c2c13;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.cozumel_history {
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  background-color: #561d25; }
+
+.history_section h2 {
+  color: black;
+  font-size: 25px;
+  text-align: center; }
+
+.history_section {
+  width: 100%;
+  display: grid;
+  width: auto;
+  text-align: left;
+  margin: 0.5rem;
+  border: 4px solid #ce8147;
+  padding: 0 1rem;
+  background-color: #ecdd7b;
+  border-radius: 15px; }
+
+.history_section picture img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #bbb;
+  margin-top: 10px; }
+
+.what_to_do {
+  display: grid;
+  width: auto;
+  text-align: left;
+  margin: 0.5rem;
+  border: 4px solid #ce8147;
+  padding: 0 1rem;
+  background-color: #ecdd7b;
+  border-radius: 15px; }
+
+.what_to_do h2 {
+  color: black;
+  font-size: 25px;
+  text-align: center; }
+
+.gallery {
+  margin: 0em;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%; }
+
+.gallery figure img {
+  width: 100%;
+  border-radius: 10px;
+  border: solid 4px #9c2c13; }
+
+.gallery figure img[data-src] {
+  filter: blur(0.2em); }
+
+.gallery figure figcaption {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  margin: 1em;
+  padding: .5em;
+  margin: auto; }
+
+.shadow {
+  transition: transform .2s;
+  margin: 0 auto; }
+
+.shadow:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.2); }
+
+.tableforecast {
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px;
+  color: #444;
+  font-style: italic;
+  display: none;
+  border: 5px solid #ce8147;
+  border-radius: 15px;
+  background-color: #ecdd7b; }
+
+.index_table {
+  margin: auto;
+  width: 500px; }
+
+.index_table, .index_th, .index_td {
+  border-spacing: 10px;
+  padding: 5px; }
+
+.index_th {
+  border: 3px solid #ce8147;
+  background-color: #d3e298;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #561d25; }
+
+.index_td {
+  border: 3px solid #ce8147;
+  background-color: #cde7be;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  text-align: center; }
+
+.vehicle_samples {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.vehicle_samples picture img {
+  margin: 5px;
+  padding: 5px; }
+
+.vehicle_title p {
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px; }
+
+.stats {
+  display: grid;
+  background-color: #ecdd7b;
+  border: 5px solid #ce8147;
+  text-align: center;
+  line-height: 1px;
+  padding: 1rem;
+  border-radius: 15px; }
+
+.contact_the_site img {
+  width: 45px;
+  padding: 5px;
+  margin: 0px; }
+
+.box {
+  background-color: #9c2c13;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  color: white; }
+
+.callaction {
+  text-decoration: none;
+  color: white; }
+
+#rental_table {
+  border-collapse: collapse;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto; }
+
+#rental_table, th, td {
+  border: 3px solid #9c2c13; }
+
+#rental_table thead {
+  font-size: 60px; }
+
+#rental_table th, td {
+  text-align: center;
+  height: 35px; }
+
+#rental_table th {
+  background-color: #ecdd7b;
+  font-size: 15px; }
+
+#rental_table tr {
+  background-color: #e7f0ed; }
+
+#rental_table thead th {
+  font-size: 15px; }
+
+.fleet {
+  margin: 0em;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%; }
+
+.rental_title {
+  text-align: center;
+  font-size: 30px;
+  color: #9c2c13; }
+
+.table_title {
+  text-align: center;
+  font-size: 25px;
+  color: #9c2c13; }
+
+.coolpics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+.coolpics figcaption {
+  text-align: center;
+  font-weight: 600; }
+
+.footmap {
+  text-decoration: none;
+  color: white; }
+
+@media only screen and (min-width: 37.5em) {
+  nav ul {
+    display: flex; }
+
+  nav ul li {
+    flex: 1 1 100%; }
+
+  nav {
+    width: 60%; }
+
+  header {
+    width: 40%; }
+
+  nav ul {
+    padding: 20px 0; }
+
+  nav ul li a {
+    font-size: 18px; }
+
+  nav button {
+    display: none; }
+
+  nav ul.hide {
+    display: flex; }
+
+  article:nth-child(3) {
+    grid-column: span 2; }
+
+  main picture {
+    display: block; }
+
+  main picture img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #bbb; }
+
+  main section {
+    display: flex; }
+
+  main section h2 {
+    margin: 10px;
+    padding: 10px; }
+
+  .side {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto; }
+
+  .googlemaps {
+    flex-direction: row; }
+
+  .address {
+    flex-direction: row; }
+
+  .sitea {
+    width: 50%; }
+
+  .siteb {
+    width: 50%; }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .tableforecast {
+    display: block;
+    width: 70%;
+    margin-left: 15px; }
+
+  .vehicle_samples {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px; }
+
+  .vehicle_samples picture img {
+    border: none;
+    width: auto; }
+
+  .weather_info {
+    display: flex; }
+
+  .stats {
+    width: 30%;
+    margin-left: 0px; }
+
+  .fleet {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .rental_title {
+    font-size: 40px; }
+
+  .table_title {
+    font-size: 35px; }
+
+  .rental_agreement ul {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .rental_agreement li {
+    width: 50%; }
+
+  .coolpics {
+    flex-direction: row;
+    flex-wrap: wrap; } }
+/* end of media query */
+@media only screen and (min-width: 60em) {
+  nav a {
+    font-size: 1.1rem; }
+
+  article:nth-child(3) {
+    grid-column: span 1; }
+
+  nav ul li a {
+    font-size: 25px; }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr); }
+
+  .gallery figure {
+    margin: 5px; }
+
+  .fleet {
+    grid-template-columns: repeat(3, 1fr); } }
+/* end of media query */
